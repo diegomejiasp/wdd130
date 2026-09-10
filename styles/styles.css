@@ -10,6 +10,9 @@ main {
 main img {
     width: 150px;
     height: auto;
+    border: 0;
+    padding: 0;
+    box-shadow: 0;
 }
 
 nav a {
