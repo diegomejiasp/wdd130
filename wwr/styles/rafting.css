@@ -105,7 +105,7 @@ article {
     padding: 16px;
     text-align: center;
     opacity: 0.85;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     color: var(--white);
     z-index: 2;
 }
