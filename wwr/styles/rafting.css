@@ -113,8 +113,10 @@ article {
 .hero article {
     position: absolute;
     bottom: 30px;
-    left: 20px;
-    right: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 800px;
     padding: 20px;
     background-color: var(--secondary-color);
     color: var(--primary-color);
@@ -161,4 +163,22 @@ footer {
     border-top: 1px solid var(--light-gray);
     padding-top: 20px;
     margin-top: 40px;
+}
+
+.history-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.history-grid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.history-grid img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
 }
