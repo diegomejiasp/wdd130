@@ -4,6 +4,7 @@
     --accent1-color: #2a9d8f;
     --white: #ffffff;
     --light-gray: #cccccc;
+    --ligh-bg: #f9f9f9;
     --shadow-color: rgba(0, 0, 0, 0.3);
     --heading-font: "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -199,10 +200,6 @@ footer {
     margin-bottom: 50px;
 }
 
-.contact-map iframe {
-    border-radius: 5px;
-}
-
 form {
     display: flex;
     flex-direction: column;
@@ -257,7 +254,7 @@ button[type="submit"] {
 }
 
 .employees-section {
-    background-color: #f9f9f9;
+    background-color: var(--ligh-bg);
     padding: 30px;
     border: 1px solid var(--light-gray);
     margin-bottom: 40px;
