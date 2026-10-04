@@ -280,3 +280,9 @@ button[type="submit"] {
     border-radius: 50%;
     margin-bottom: 10px;
 }
+
+.contact-map iframe {
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+}
