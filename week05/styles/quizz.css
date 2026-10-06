@@ -8,6 +8,7 @@ main {
     width: 700px;
     margin: 0 auto;
     background-color: #d3d3d3;
+    padding: 1.25rem;
 }
 
 fieldset {
@@ -20,7 +21,8 @@ fieldset {
 legend {
     font-size: 1.5em;
     font-weight: bold;
-    color: #1107a8 padding: 0 10px;
+    color: #1107a8;
+    padding: 0 10px;
 }
 
 input,
@@ -32,12 +34,33 @@ textarea {
     width: 100%;
 }
 
+input:focus select:focus textarea:focus {
+    outline: 3px solid #6f0303;
+}
+
 .code {
     background-color: #03020d;
     color: #f3f3f3;
     font-family: monospace;
-    padding: 10px 5 px;
+    padding: 10px 5px;
     border-radius: 5px;
     width: fit-content;
     margin: 0 auto;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 2em;
+    color: #6b0353;
+    font-style: italic;
+}
+
+button {
+    font-size: 1.25em;
+    padding: 10px 20px;
+    background-color: #024a0e;
+    color: #f3f3f3;
+    border: 5px dashed #011a05;
+    border-radius: 5px;
+    cursor: pointer;
 }
