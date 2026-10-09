@@ -187,10 +187,13 @@ footer {
 .company-info {
     text-align: center;
     margin: 30px 0;
+    background-color: var(--primary-color);
+    color: var(--white);
 }
 
 .company-info h1 {
     margin-bottom: 15px;
+    color: var(--white);
 }
 
 .contact-grid {
@@ -287,4 +290,93 @@ button[type="submit"] {
 .success-message {
     text-align: center;
     padding: 50px 20px;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.success-message h1 {
+    color: var(--white);
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.home-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.newsletter {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+
+.newsletter h2 {
+    color: var(--white);
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px 0;
+}
+
+.trips-table th,
+.trips-table td {
+    border: 1px solid var(--primary-color);
+    padding: 12px;
+    text-align: center;
+}
+
+.trips-table th {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.trips-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.reserve-btn {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.reserve-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.home-cta {
+    text-align: center;
+    margin: 40px 0;
 }
